@@ -3,6 +3,19 @@
 #include <vector>
 using namespace std;
 
+void multipleAdd() {
+
+    int x = 2;
+    int y = 3;
+
+    cout << "X = " << x << ", Y = " << y;
+
+    x, y = 5;
+    x, y += 2;
+
+    cout << "\n(7) X = " << x << ", Y = " << y;
+}
+
 int pointers() {
 
     int iNum = 5;
@@ -92,16 +105,16 @@ void vectors () {
     vector <char> characters;
     vector <string> stringy;
 
-    integers.pushback (5);
-    integers.pushback (10);
-    integers.pushback (20);
-
-    characters.pushback ('a');
-    characters.pushback ('e');
-    characters.pushback ('i');
-
-    stringy.pushback ("stringys");
-    stringy.pushback ("yay!");
+//    integers.pushback (5);
+//    integers.pushback (10);
+//    integers.pushback (20);
+//
+//    characters.pushback ('a');
+//    characters.pushback ('e');
+//    characters.pushback ('i');
+//
+//    stringy.pushback ("stringys");
+//    stringy.pushback ("yay!");
 
     int n;
 
@@ -135,6 +148,11 @@ int main() {
 
     cout << "\nclassy\n\ndensity: ";
     classes();
+    cout << "\n\n";
+    system ("pause");
+
+    cout << "\nmultiple addition: ";
+    multipleAdd();
     cout << "\n\n";
     system ("pause");
 
